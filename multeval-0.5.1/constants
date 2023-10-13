@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# These must also be updated in build.xml
+version=0.5.1
+meteor_version=1.4
+
+scriptDir=$(dirname $0)
+libDir=$scriptDir/lib
+meteorPath=$libDir/meteor-$meteor_version
+meteorUrl=http://www.cs.cmu.edu/~alavie/METEOR/download/meteor-${meteor_version}.tgz
+
+meteorJar=$meteorPath/meteor-${meteor_version}.jar
+terJar=$scriptDir/lib/tercom-0.8.0.jar
