@@ -24,7 +24,7 @@ Here are the prediction outputs for the experimented languages: https://github.c
 
 ## Citation
 
-```tex
+```
 @inproceedings{li-flanigan-2022-improving,
     title = "Improving Neural Machine Translation with the {A}bstract {M}eaning {R}epresentation by Combining Graph and Sequence Transformers",
     author = "Li, Changmao  and
